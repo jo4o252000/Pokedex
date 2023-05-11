@@ -1,0 +1,168 @@
+#allpokedex{
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+
+    width: 60%;
+    margin:auto;
+}
+#pokedex{
+    display: flex;
+    flex-direction: column;
+}
+#pokedex img{
+    width: 180px;
+}
+#pokedex p {
+    text-align: center;
+}
+.typePokemon{
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    margin:auto;
+}
+.grass{
+    background: rgb(46,139,87);
+    color:rgb(223, 223, 223);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+.poison{
+    background: rgb(75,0,130);
+    color:rgb(223, 223, 223);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+.fire{
+    background: rgb(255,69,0);
+    color:rgb(223, 223, 223);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+.flying{
+    background: rgb(136, 154, 255);
+    color:rgb(223, 223, 223);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+.water{
+    background: rgb(0	160	220	);
+    color:rgb(223, 223, 223);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+.bug{
+    background: rgb(170, 187, 33);
+    color:rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+.normal{
+    background: rgb(169, 170, 152);
+    color:rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+.electric{
+    background: rgb(255, 204, 52);
+    color:rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+.ground{
+    background: rgb(221, 188, 85);
+    color:rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+.fairy{
+    background: rgb(238, 153, 238);
+    color:rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+.fighting{
+    background: rgb(187, 86, 68);
+    color:rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+.psychic{
+    background: rgb(255, 86, 152);
+    color:rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+.rock{
+    background: rgb(187, 170, 101);
+    color:rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+.steel{
+    background: rgb(171, 170, 186);
+    color:rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+.ice{
+    background: rgb(102, 203, 255);
+    color:rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+.ghost{
+    background: rgb(102, 103, 186);
+    color:rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+.dragon{
+    background: rgb(119, 103, 238);
+    color:rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+.dark{
+    background-color:#2e2e2e;
+    color:rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}

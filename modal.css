@@ -1,0 +1,130 @@
+dialog::backdrop{
+    background-color: rgb(0 0 0 /.20);
+}
+dialog{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 1em rgb(0 0 0 /.3);
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+.imgFechar{
+    text-align: right;
+}
+.imgFechar img{
+    width: 35px;
+    height: 35px;
+}
+.cardBody{
+    display: flex;
+    gap: 100px;
+    padding: 80px;
+}
+.nameAndStasts{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    gap: 80px;
+}
+.idH4{
+    font-weight: 700;
+    font-size: 25PX;
+}
+.nameH2{
+    margin-top: -25px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.alturaAndPeso h2{
+    font-weight: 400;
+    font-size: 20px;
+}
+.pesoH2 {
+    margin-top: -10px;
+}
+.statusPokemon h3{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.alturaAndPeso{
+    text-align: end;
+}
+.statuAndTypePokemon{
+    display: flex;
+    flex-direction: column;
+    
+}
+.statusPokemonAll{
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    border-left: 2px solid black;
+    padding-left: 10px;
+}
+.statusPokemon2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 236, 236);
+    font-weight: 700;
+    color: black;
+    text-shadow: none;
+    padding-left: 10px;
+    border-radius: 11px;
+}
+.typePokemon img{
+    width: 90px;
+    height: 90px;
+}
+.infos_grass{
+    background-color: #2a8c4a;
+}
+.infos_fire{
+    background-color: #670010;
+}
+.infos_bug{
+    background-color: #86895d;
+}
+.infos_normal{
+    background-color: #666666;
+}
+.infos_poison{
+    background-color: #4b1c71;
+}
+.infos_electric{
+    background-color: #fdfd96;
+}
+.infos_ground{
+    background-color: #a68069;
+}
+.infos_fairy{
+    background-color: #f6d1de;
+}
+.infos_water{
+    background-color: #00004e;
+}
+.infos_fighting{
+    background-color: #ff6565;
+}
+.infos_ice{
+    background-color: #c3f9ea;
+}
+.infos_ghost{
+    background-color: #ba9df4;
+}
+.infos_psychic{
+    background-color: #f47edd;
+}
+.infos_rock{
+    background-color: #b08e6b ;
+}
+.infos_dragon{
+    background-color: #95b8f6;
+}
+.infos_dark{
+    background-color:#2e2e2e ;
+}
+.infos_steel{
+    background-color: #686b69;
+}
